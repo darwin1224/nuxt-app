@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    { "language": "typescript", "autoFix": true },
+    { "language": "vue", "autoFix": true }
+  ],
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
